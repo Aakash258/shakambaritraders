@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 export default function Navbar() {
     return (
-        <div >
+        <div style={{'position':'sticky','top':'0px','z-index':'3','backgroundColor':'white'}} >
             <h1 style={{'text-align':'center'}}>Company Logo</h1>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid" >
